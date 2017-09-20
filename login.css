@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+    background-image:url("../img/home.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#headbanner {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(134, 134, 134, 0.6);
+}
+
+.general-text {
+    background-color: rgba(4, 4, 4, 0.3);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: greenyellow;
+    display: inline-block;
+}
+
+#login {
+    position: absolute;
+    margin: 0 auto;
+    left: 0; right: 0;
+    width: 30%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+input:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+label{
+    font-size: 16pt;
+}

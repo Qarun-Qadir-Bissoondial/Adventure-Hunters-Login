@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<body>  
+    <div id="headbanner">
+        <div id="logo">
+            <h2 class = "general-text"> Sign up Page</h2>
+        </div>
+    </div>
+
+    <div id="login" class = "general-text">
+        <form action="" onsubmit="return false">
+            <div id="fname">
+                <label for="firstname">First Name: </label> <br>
+                <input type="text">
+            </div>
+            <div id="lname">
+                <label for="lastname">Last Name: </label> <br>
+                <input type="text">
+            </div>
+            <div id="mail">
+                <label for="email">Email Address: </label> <br>
+                <input type="email" placeholder="someone@example.com">
+            </div>
+            <div id="dob">
+                <label for="date-of-birth">Date of Birth: </label> <br>
+                <input type="date">
+            </div>
+
+            <div id="pass">
+                <label for="pw">Password: </label> <br>
+                <input type="password">
+            </div>
+
+            <div id="confpass">
+                <label for="confpw"> Confirm Password: </label> <br>
+                <input type="password">
+            </div>
+
+            <div id="btnarea">
+                <button type = "submit" value = "submit">
+                    Sign Up Now!
+                </button>
+                <button type = "reset" value = "reset">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- 
+        Put x at the end of the input fields to clear individual areas
+     -->
+
+<script src = "js/login.js"></script>
+</body>
+</html>
